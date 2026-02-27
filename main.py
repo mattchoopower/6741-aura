@@ -1,5 +1,7 @@
 import random
-max = 100
+import time
+max = 10
+
 print(f"guess a number 1 to {max}")
 answer = random.randint(1,max)
 guess = 0
@@ -16,3 +18,8 @@ while guess != answer:
         print("too low, even slef is better than u!")
     if guess > answer:
         print("TOO HIGH!")
+print("🎊🎉")
+time.sleep(1)
+print("💕💕💕💕❤️❤️❤️👌🎊🎉😍😊😉🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑🤑")
+time.sleep(1)
+print("🫰🫰🫰🫰🫰💰💎💸💷💳🪙🧧💶💰💰💰🫰🏿")
